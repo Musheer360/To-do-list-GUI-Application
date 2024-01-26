@@ -1,0 +1,64 @@
+object Form1: TForm1
+  Left = 615
+  Top = 255
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = Single
+  Caption = 'To-do List'
+  ClientHeight = 454
+  ClientWidth = 585
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  Left = 615
+  Top = 255
+  DesignerMasterStyle = 0
+  object HeaderLabel: TLabel
+    StyledSettings = [Family, FontColor]
+    Position.X = 232.000000000000000000
+    Position.Y = 18.000000000000000000
+    Size.Width = 129.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'Label1Style1'
+    TextSettings.Font.Size = 22.000000000000000000
+    TextSettings.Font.StyleExt = {04060000000000000004000000}
+    TextSettings.HorzAlign = Center
+    Text = 'To-do List'
+    TabOrder = 0
+  end
+  object InputField: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Position.X = 24.000000000000000000
+    Position.Y = 58.000000000000000000
+    Size.Width = 537.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object AddButton: TButton
+    Position.X = 243.000000000000000000
+    Position.Y = 99.000000000000000000
+    Size.Width = 99.000000000000000000
+    Size.Height = 42.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'Add Item'
+    OnClick = AddButtonClick
+  end
+  object OutputField: TListBox
+    Position.X = 24.000000000000000000
+    Position.Y = 164.000000000000000000
+    Size.Width = 537.000000000000000000
+    Size.Height = 264.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    OnItemClick = OutputFieldItemClick
+    Viewport.Width = 533.000000000000000000
+    Viewport.Height = 260.000000000000000000
+  end
+end

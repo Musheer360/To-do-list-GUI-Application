@@ -1,0 +1,13 @@
+inherited Form1_Surface: TForm1_Surface
+  ClientHeight = 1920
+  ClientWidth = 1080
+  Fill.Kind = Solid
+  DesignerMasterStyle = 0
+  inherited HeaderLabel: TLabel
+    TextSettings.Font.StyleExt = {04060000000000000004000000}
+  end
+  inherited OutputField: TListBox
+    Viewport.Width = 533.000000000000000000
+    Viewport.Height = 260.000000000000000000
+  end
+end

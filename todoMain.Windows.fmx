@@ -1,0 +1,29 @@
+inherited Form1_Windows: TForm1_Windows
+  DesignerMasterStyle = 0
+  inherited HeaderLabel: TLabel
+    Position.Y = 14.000000000000000000
+    Size.Width = 121.000000000000000000
+    TextSettings.Font.Size = 24.000000000000000000
+    TextSettings.Font.StyleExt = {04070000000000000004000000}
+  end
+  inherited InputField: TEdit
+    TextSettings.Font.Size = 14.000000000000000000
+    Position.Y = 64.000000000000000000
+    TextPrompt = ' Enter an item here to add to the list.'
+    StyledSettings = [FontColor]
+  end
+  inherited AddButton: TButton
+    StyledSettings = [Family, FontColor]
+    Position.X = 248.000000000000000000
+    Position.Y = 110.000000000000000000
+    Size.Width = 89.000000000000000000
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.Font.StyleExt = {00060000000000000004000000}
+  end
+  inherited OutputField: TListBox
+    Position.Y = 176.000000000000000000
+    Size.Height = 257.000000000000000000
+    Viewport.Width = 533.000000000000000000
+    Viewport.Height = 253.000000000000000000
+  end
+end
